@@ -37,9 +37,6 @@
         UIImage *img = [UIImage imageNamed:imgName];
         [idleImages addObject:img];
     }
-//    [[UIScreen mainScreen]bounds].size.width
-
-    
     self.lastUpdatedTimeLabel.hidden = YES;
     self.stateLabel.hidden = YES;
     CGPoint center = self.gifView.center;
